@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Hey this is a jquery file</p>
+  </body>
+  <p>this is to be hidden</p>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      //
+    });
+
+    console.log("hey man we using jquery");
+    $("selector").action;
+    $("p").css("color", "red");
+
+    $("p").click(function () {
+      console.log("u clicked");
+      //    $('p').fadeToggle();
+      //
+
+      //$('.class').hide();
+      //    $('p').click(function(){
+      $(this).toggle();
+    });
+  </script>
+
+  <!-- it is important to add jquery link below body close above script tag  -->
+</html>
